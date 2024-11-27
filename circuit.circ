@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project integrity="d8fa46d6dec8398e35e666a33eb27d0e6bf88e78" source="2.16.8.t" version="1.0">
+<project integrity="96a6704db6d247a949e0c6712b33dba60a307643" source="2.16.8.t" version="1.0">
   This file is intended to be loaded by Logisim-evolution (https://github.com/reds-heig/logisim-evolution).
 
   <lib desc="#Wiring" name="0">
@@ -564,22 +564,64 @@ end TCL_Generic;&#13;
     <a name="clabelfont" val="SansSerif bold 12"/>
     <a name="circuitnamedbox" val="true"/>
     <a name="circuitvhdlpath" val=""/>
-    <comp lib="0" loc="(100,530)" name="Pin">
-      <a name="label" val="reset_i"/>
-      <a name="owner" val="gaetan_matthey"/>
-      <a name="date" val="20.11.20 15:22:00"/>
-      <a name="version" val="2.14.8.t"/>
-      <a name="uuid" val="abb3ec58-1157-4af4-af69-a643d0023670"/>
-      <a name="integrity" val="a1e11105887989f1a59eeb216096bedca8eb3ce7"/>
-    </comp>
-    <comp lib="0" loc="(100,500)" name="Pin">
-      <a name="label" val="clk_i"/>
-      <a name="owner" val="gaetan_matthey"/>
-      <a name="date" val="20.11.20 15:22:00"/>
-      <a name="version" val="2.14.8.t"/>
-      <a name="uuid" val="3f0f53f8-86af-440f-8ef8-c00e343e8a97"/>
-      <a name="integrity" val="df0b5d560c557912665e5e9cfd457c5936f45957"/>
-    </comp>
+    <wire from="(1070,200)" to="(1180,200)"/>
+    <wire from="(920,370)" to="(920,440)"/>
+    <wire from="(900,370)" to="(900,440)"/>
+    <wire from="(760,370)" to="(760,440)"/>
+    <wire from="(740,370)" to="(740,440)"/>
+    <wire from="(490,490)" to="(490,500)"/>
+    <wire from="(580,370)" to="(580,440)"/>
+    <wire from="(120,140)" to="(170,140)"/>
+    <wire from="(600,370)" to="(600,440)"/>
+    <wire from="(920,480)" to="(920,510)"/>
+    <wire from="(760,480)" to="(760,510)"/>
+    <wire from="(410,360)" to="(410,440)"/>
+    <wire from="(430,360)" to="(430,440)"/>
+    <wire from="(600,480)" to="(600,510)"/>
+    <wire from="(110,440)" to="(150,440)"/>
+    <wire from="(190,310)" to="(290,310)"/>
+    <wire from="(140,320)" to="(170,320)"/>
+    <wire from="(660,560)" to="(660,600)"/>
+    <wire from="(430,510)" to="(460,510)"/>
+    <wire from="(430,550)" to="(460,550)"/>
+    <wire from="(820,560)" to="(820,600)"/>
+    <wire from="(980,560)" to="(980,600)"/>
+    <wire from="(390,460)" to="(410,460)"/>
+    <wire from="(190,300)" to="(260,300)"/>
+    <wire from="(1010,510)" to="(1020,510)"/>
+    <wire from="(850,510)" to="(860,510)"/>
+    <wire from="(690,510)" to="(700,510)"/>
+    <wire from="(1160,230)" to="(1180,230)"/>
+    <wire from="(660,490)" to="(660,500)"/>
+    <wire from="(980,490)" to="(980,500)"/>
+    <wire from="(100,600)" to="(160,600)"/>
+    <wire from="(820,490)" to="(820,500)"/>
+    <wire from="(120,170)" to="(170,170)"/>
+    <wire from="(860,460)" to="(900,460)"/>
+    <wire from="(430,480)" to="(430,510)"/>
+    <wire from="(190,290)" to="(230,290)"/>
+    <wire from="(1130,220)" to="(1180,220)"/>
+    <wire from="(1100,210)" to="(1180,210)"/>
+    <wire from="(590,400)" to="(590,440)"/>
+    <wire from="(610,400)" to="(610,440)"/>
+    <wire from="(750,400)" to="(750,440)"/>
+    <wire from="(770,400)" to="(770,440)"/>
+    <wire from="(910,400)" to="(910,440)"/>
+    <wire from="(930,400)" to="(930,440)"/>
+    <wire from="(710,460)" to="(740,460)"/>
+    <wire from="(760,510)" to="(790,510)"/>
+    <wire from="(760,550)" to="(790,550)"/>
+    <wire from="(550,460)" to="(580,460)"/>
+    <wire from="(600,510)" to="(630,510)"/>
+    <wire from="(600,550)" to="(630,550)"/>
+    <wire from="(920,510)" to="(950,510)"/>
+    <wire from="(920,550)" to="(950,550)"/>
+    <wire from="(490,560)" to="(490,600)"/>
+    <wire from="(420,390)" to="(420,440)"/>
+    <wire from="(440,390)" to="(440,440)"/>
+    <wire from="(190,280)" to="(200,280)"/>
+    <wire from="(90,530)" to="(160,530)"/>
+    <wire from="(520,510)" to="(530,510)"/>
     <comp lib="0" loc="(110,440)" name="Pin">
       <a name="width" val="2"/>
       <a name="label" val="mode_i"/>
@@ -625,6 +667,297 @@ end TCL_Generic;&#13;
       <a name="version" val="2.14.8.t"/>
       <a name="uuid" val="af42427f-1311-4d8e-a785-12a54f017b19"/>
       <a name="integrity" val="d98e66f6a739f98ae07e5fb4cb64c497c42e8186"/>
+    </comp>
+    <comp lib="0" loc="(100,600)" name="Pin">
+      <a name="label" val="reset_i"/>
+      <a name="owner" val="gaetan_matthey"/>
+      <a name="date" val="20.11.20 15:22:00"/>
+      <a name="version" val="2.14.8.t"/>
+      <a name="uuid" val="abb3ec58-1157-4af4-af69-a643d0023670"/>
+      <a name="integrity" val="a1e11105887989f1a59eeb216096bedca8eb3ce7"/>
+    </comp>
+    <comp lib="0" loc="(90,530)" name="Pin">
+      <a name="label" val="clk_i"/>
+      <a name="owner" val="gaetan_matthey"/>
+      <a name="date" val="20.11.20 15:22:00"/>
+      <a name="version" val="2.14.8.t"/>
+      <a name="uuid" val="3f0f53f8-86af-440f-8ef8-c00e343e8a97"/>
+      <a name="integrity" val="df0b5d560c557912665e5e9cfd457c5936f45957"/>
+    </comp>
+    <comp lib="0" loc="(160,530)" name="Tunnel">
+      <a name="label" val="clk_i"/>
+    </comp>
+    <comp lib="0" loc="(170,320)" name="Splitter">
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+      <a name="owner" val="feuzet_costa"/>
+      <a name="date" val="27.11.24 14:11:38"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="c5d4806b-e94b-4ff6-97be-bd1972900d43"/>
+      <a name="integrity" val="7025522055a17490d92e2c517b50f86a9c78299e"/>
+    </comp>
+    <comp lib="0" loc="(230,290)" name="Tunnel">
+      <a name="label" val="D1"/>
+    </comp>
+    <comp lib="0" loc="(200,280)" name="Tunnel">
+      <a name="label" val="D0"/>
+    </comp>
+    <comp lib="0" loc="(260,300)" name="Tunnel">
+      <a name="label" val="D2"/>
+    </comp>
+    <comp lib="0" loc="(290,310)" name="Tunnel">
+      <a name="label" val="D3"/>
+    </comp>
+    <comp lib="0" loc="(170,140)" name="Tunnel">
+      <a name="label" val="R"/>
+    </comp>
+    <comp lib="0" loc="(170,170)" name="Tunnel">
+      <a name="label" val="L"/>
+    </comp>
+    <comp lib="0" loc="(1200,190)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+      <a name="owner" val="feuzet_costa"/>
+      <a name="date" val="27.11.24 14:11:38"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="383bd4cb-b8b1-47ba-b4eb-1bc26cc26d4f"/>
+      <a name="integrity" val="2edea830dd43c78d4ed27b1959ded9eaf3be00ac"/>
+    </comp>
+    <comp lib="0" loc="(1100,210)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="Q1"/>
+    </comp>
+    <comp lib="0" loc="(1160,230)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="Q3"/>
+    </comp>
+    <comp lib="0" loc="(1130,220)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="Q2"/>
+    </comp>
+    <comp lib="0" loc="(1070,200)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="Q0"/>
+    </comp>
+    <comp lib="2" loc="(430,480)" name="Multiplexer">
+      <a name="facing" val="south"/>
+      <a name="select" val="2"/>
+      <a name="enable" val="false"/>
+      <a name="owner" val="feuzet_costa"/>
+      <a name="date" val="27.11.24 14:09:28"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="93d2743a-89a8-473a-b510-b49fa14c7fad"/>
+      <a name="integrity" val="8526242efd6eab6c6c4fdea7653390328674c6d8"/>
+    </comp>
+    <comp lib="4" loc="(800,500)" name="D Flip-Flop">
+      <a name="owner" val="feuzet_costa"/>
+      <a name="date" val="27.11.24 14:08:40"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="002bedaf-301c-467f-8419-a207749cc313"/>
+      <a name="integrity" val="eb0888caa40e9e257c1aa3eb9747696a155631e0"/>
+    </comp>
+    <comp lib="0" loc="(580,370)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="Q2"/>
+    </comp>
+    <comp lib="0" loc="(750,400)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="D1"/>
+    </comp>
+    <comp lib="0" loc="(530,510)" name="Tunnel">
+      <a name="label" val="Q3"/>
+    </comp>
+    <comp lib="2" loc="(760,480)" name="Multiplexer">
+      <a name="facing" val="south"/>
+      <a name="select" val="2"/>
+      <a name="enable" val="false"/>
+      <a name="owner" val="feuzet_costa"/>
+      <a name="date" val="27.11.24 14:09:28"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="4aae08ac-fea0-4fdd-bbcb-2869b27f3672"/>
+      <a name="integrity" val="2927848c26c94e3a7c6cef86619029e34ebba05d"/>
+    </comp>
+    <comp lib="2" loc="(600,480)" name="Multiplexer">
+      <a name="facing" val="south"/>
+      <a name="select" val="2"/>
+      <a name="enable" val="false"/>
+      <a name="owner" val="feuzet_costa"/>
+      <a name="date" val="27.11.24 14:09:28"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="7f74e963-c278-4b76-a98b-b81e63f75e99"/>
+      <a name="integrity" val="e90f033f5d1b4cd41e9816b7aaeddaa27b129d7b"/>
+    </comp>
+    <comp lib="0" loc="(600,370)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="Q1"/>
+    </comp>
+    <comp lib="0" loc="(700,510)" name="Tunnel">
+      <a name="label" val="Q2"/>
+    </comp>
+    <comp lib="4" loc="(470,500)" name="D Flip-Flop">
+      <a name="owner" val="feuzet_costa"/>
+      <a name="date" val="27.11.24 14:08:40"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="4ccffd71-31c4-4629-bdef-2e38dc3266e1"/>
+      <a name="integrity" val="35796d3910a1cc74ab080a2ce0c811ebde0738ba"/>
+    </comp>
+    <comp lib="0" loc="(600,550)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="clk_i"/>
+    </comp>
+    <comp lib="0" loc="(740,370)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="Q1"/>
+    </comp>
+    <comp lib="0" loc="(760,370)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="Q0"/>
+    </comp>
+    <comp lib="0" loc="(860,510)" name="Tunnel">
+      <a name="label" val="Q1"/>
+    </comp>
+    <comp lib="0" loc="(610,400)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="Q3"/>
+    </comp>
+    <comp lib="0" loc="(430,550)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="clk_i"/>
+    </comp>
+    <comp lib="0" loc="(760,550)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="clk_i"/>
+    </comp>
+    <comp lib="0" loc="(590,400)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="D2"/>
+    </comp>
+    <comp lib="4" loc="(640,500)" name="D Flip-Flop">
+      <a name="owner" val="feuzet_costa"/>
+      <a name="date" val="27.11.24 14:08:40"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="f2920616-b8cf-42c0-87a1-79ad391d52bf"/>
+      <a name="integrity" val="e33cb89192659c5f7caea79c2a8c3ddd7edf8132"/>
+    </comp>
+    <comp lib="0" loc="(770,400)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="Q2"/>
+    </comp>
+    <comp lib="0" loc="(930,400)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="Q1"/>
+    </comp>
+    <comp lib="0" loc="(920,370)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="L"/>
+    </comp>
+    <comp lib="0" loc="(910,400)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="D0"/>
+    </comp>
+    <comp lib="0" loc="(920,550)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="clk_i"/>
+    </comp>
+    <comp lib="2" loc="(920,480)" name="Multiplexer">
+      <a name="facing" val="south"/>
+      <a name="select" val="2"/>
+      <a name="enable" val="false"/>
+      <a name="owner" val="feuzet_costa"/>
+      <a name="date" val="27.11.24 14:09:28"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="4aae08ac-fea0-4fdd-bbcb-2869b27f3672"/>
+      <a name="integrity" val="2927848c26c94e3a7c6cef86619029e34ebba05d"/>
+    </comp>
+    <comp lib="4" loc="(960,500)" name="D Flip-Flop">
+      <a name="owner" val="feuzet_costa"/>
+      <a name="date" val="27.11.24 14:08:40"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="002bedaf-301c-467f-8419-a207749cc313"/>
+      <a name="integrity" val="eb0888caa40e9e257c1aa3eb9747696a155631e0"/>
+    </comp>
+    <comp lib="0" loc="(900,370)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="Q0"/>
+    </comp>
+    <comp lib="0" loc="(150,440)" name="Tunnel">
+      <a name="width" val="2"/>
+      <a name="label" val="mode_i"/>
+    </comp>
+    <comp lib="0" loc="(390,460)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="2"/>
+      <a name="label" val="mode_i"/>
+    </comp>
+    <comp lib="0" loc="(550,460)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="2"/>
+      <a name="label" val="mode_i"/>
+    </comp>
+    <comp lib="0" loc="(710,460)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="2"/>
+      <a name="label" val="mode_i"/>
+    </comp>
+    <comp lib="0" loc="(860,460)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="2"/>
+      <a name="label" val="mode_i"/>
+    </comp>
+    <comp lib="0" loc="(420,390)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="D3"/>
+    </comp>
+    <comp lib="0" loc="(440,390)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="R"/>
+    </comp>
+    <comp lib="0" loc="(430,360)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="Q2"/>
+    </comp>
+    <comp lib="0" loc="(410,360)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="Q3"/>
+    </comp>
+    <comp lib="0" loc="(1020,510)" name="Tunnel">
+      <a name="label" val="Q0"/>
+    </comp>
+    <comp lib="0" loc="(490,490)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(660,490)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(820,490)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(980,490)" name="Constant">
+      <a name="facing" val="south"/>
+      <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(160,600)" name="Tunnel">
+      <a name="label" val="reset_i"/>
+    </comp>
+    <comp lib="0" loc="(490,600)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="reset_i"/>
+    </comp>
+    <comp lib="0" loc="(660,600)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="reset_i"/>
+    </comp>
+    <comp lib="0" loc="(820,600)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="reset_i"/>
+    </comp>
+    <comp lib="0" loc="(980,600)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="reset_i"/>
     </comp>
     <comp lib="7" loc="(4,50)" name="Text" trackercomp="true">
       <a name="text" val="Attention, votre version de Logisim"/>
