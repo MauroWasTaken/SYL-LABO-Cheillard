@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project integrity="96a6704db6d247a949e0c6712b33dba60a307643" source="2.16.8.t" version="1.0">
-  This file is intended to be loaded by Logisim-evolution (https://github.com/reds-heig/logisim-evolution).
-
-  <lib desc="#Wiring" name="0">
+<project integrity="c0c79bbb05d5b791ed345c57bd50c887e365e2a6" source="2.16.8.t" version="1.0">
+This file is intended to be loaded by Logisim-evolution (https://github.com/reds-heig/logisim-evolution).
+<lib desc="#Wiring" name="0">
     <tool name="Splitter">
       <a name="incoming" val="8"/>
       <a name="date" val="04.11.16 16:09:15"/>
@@ -55,44 +54,44 @@
   <lib desc="#I/O" name="5"/>
   <lib desc="#HDL-IP" name="6">
     <tool name="VHDL Entity">
-      <a name="content">--------------------------------------------------------------------------------
--- HEIG-VD, institute REDS, 1400 Yverdon-les-Bains
--- Project :
--- File    :
--- Autor   :
--- Date    :
---
---------------------------------------------------------------------------------
--- Description :
---
---------------------------------------------------------------------------------
-
-library ieee;
-  use ieee.std_logic_1164.all;
-  --use ieee.numeric_std.all;
-
-entity VHDL_Component is
-  port(
-  ------------------------------------------------------------------------------
-  --Insert input ports below
-    horloge_i  : in  std_logic;                    -- input bit example
-    val_i      : in  std_logic_vector(3 downto 0); -- input vector example
-  ------------------------------------------------------------------------------
-  --Insert output ports below
-    max_o      : out std_logic;                    -- output bit example
-    cpt_o      : out std_logic_Vector(3 downto 0)  -- output vector example
-    );
-end VHDL_Component;
-
---------------------------------------------------------------------------------
---Complete your VHDL description below
-architecture type_architecture of VHDL_Component is
-
-
-begin
-
-
-end type_architecture;
+      <a name="content">--------------------------------------------------------------------------------&#13;
+-- HEIG-VD, institute REDS, 1400 Yverdon-les-Bains&#13;
+-- Project :&#13;
+-- File    :&#13;
+-- Autor   :&#13;
+-- Date    :&#13;
+--&#13;
+--------------------------------------------------------------------------------&#13;
+-- Description :&#13;
+--&#13;
+--------------------------------------------------------------------------------&#13;
+&#13;
+library ieee;&#13;
+  use ieee.std_logic_1164.all;&#13;
+  --use ieee.numeric_std.all;&#13;
+&#13;
+entity VHDL_Component is&#13;
+  port(&#13;
+  ------------------------------------------------------------------------------&#13;
+  --Insert input ports below&#13;
+    horloge_i  : in  std_logic;                    -- input bit example&#13;
+    val_i      : in  std_logic_vector(3 downto 0); -- input vector example&#13;
+  ------------------------------------------------------------------------------&#13;
+  --Insert output ports below&#13;
+    max_o      : out std_logic;                    -- output bit example&#13;
+    cpt_o      : out std_logic_Vector(3 downto 0)  -- output vector example&#13;
+    );&#13;
+end VHDL_Component;&#13;
+&#13;
+--------------------------------------------------------------------------------&#13;
+--Complete your VHDL description below&#13;
+architecture type_architecture of VHDL_Component is&#13;
+&#13;
+&#13;
+begin&#13;
+&#13;
+&#13;
+end type_architecture;&#13;
 </a>
     </tool>
   </lib>
@@ -992,6 +991,43 @@ end TCL_Generic;&#13;
     <a name="clabelfont" val="SansSerif bold 12"/>
     <a name="circuitnamedbox" val="true"/>
     <a name="circuitvhdlpath" val=""/>
+    <wire from="(1060,150)" to="(1060,170)"/>
+    <wire from="(1060,130)" to="(1060,150)"/>
+    <wire from="(1000,210)" to="(1000,220)"/>
+    <wire from="(550,290)" to="(600,290)"/>
+    <wire from="(550,390)" to="(600,390)"/>
+    <wire from="(550,250)" to="(600,250)"/>
+    <wire from="(550,410)" to="(600,410)"/>
+    <wire from="(550,230)" to="(600,230)"/>
+    <wire from="(550,270)" to="(600,270)"/>
+    <wire from="(550,430)" to="(600,430)"/>
+    <wire from="(550,450)" to="(600,450)"/>
+    <wire from="(550,210)" to="(600,210)"/>
+    <wire from="(550,190)" to="(600,190)"/>
+    <wire from="(550,350)" to="(600,350)"/>
+    <wire from="(550,370)" to="(600,370)"/>
+    <wire from="(200,420)" to="(260,420)"/>
+    <wire from="(210,240)" to="(210,250)"/>
+    <wire from="(210,240)" to="(260,240)"/>
+    <wire from="(210,260)" to="(260,260)"/>
+    <wire from="(1020,170)" to="(1060,170)"/>
+    <wire from="(1080,100)" to="(1080,110)"/>
+    <wire from="(1020,170)" to="(1020,190)"/>
+    <wire from="(200,390)" to="(200,420)"/>
+    <wire from="(790,190)" to="(810,190)"/>
+    <wire from="(790,350)" to="(810,350)"/>
+    <wire from="(170,390)" to="(200,390)"/>
+    <wire from="(980,200)" to="(1000,200)"/>
+    <wire from="(980,220)" to="(1000,220)"/>
+    <wire from="(170,450)" to="(260,450)"/>
+    <wire from="(170,340)" to="(260,340)"/>
+    <wire from="(170,130)" to="(260,130)"/>
+    <wire from="(170,160)" to="(260,160)"/>
+    <wire from="(1080,100)" to="(1090,100)"/>
+    <wire from="(1080,120)" to="(1090,120)"/>
+    <wire from="(170,270)" to="(190,270)"/>
+    <wire from="(1060,170)" to="(1090,170)"/>
+    <wire from="(1060,150)" to="(1090,150)"/>
     <comp lib="0" loc="(170,420)" name="Pin">
       <a name="label" val="clk_i"/>
       <a name="owner" val="gaetan_matthey"/>
@@ -1034,7 +1070,130 @@ end TCL_Generic;&#13;
       <a name="uuid" val="5fabf931-1d3c-4d1d-8ab2-a3caea72d8a4"/>
       <a name="integrity" val="b083cbdba759e40b117583bf9946617063181408"/>
     </comp>
-    <comp lib="0" loc="(820,180)" name="Pin">
+    <comp lib="0" loc="(170,130)" name="Pin">
+      <a name="label" val="ser_l_i"/>
+      <a name="owner" val="gaetan_matthey"/>
+      <a name="date" val="20.11.20 15:22:19"/>
+      <a name="version" val="2.14.8.t"/>
+      <a name="uuid" val="60dc08b5-5140-4141-b124-37b2a6389600"/>
+      <a name="integrity" val="4940b299d92de2722fbe45974ebc26a5b3e36a2f"/>
+    </comp>
+    <comp lib="0" loc="(260,420)" name="Tunnel">
+      <a name="label" val="clk_i"/>
+    </comp>
+    <comp lib="0" loc="(260,450)" name="Tunnel">
+      <a name="label" val="reset_i"/>
+    </comp>
+    <comp lib="0" loc="(260,340)" name="Tunnel">
+      <a name="width" val="2"/>
+      <a name="label" val="mode_i"/>
+    </comp>
+    <comp lib="0" loc="(190,270)" name="Splitter">
+      <a name="incoming" val="8"/>
+      <a name="owner" val="feuzet_costa"/>
+      <a name="date" val="04.12.24 13:15:53"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="badb23e5-22fb-4d7a-b76f-b7151901c7e9"/>
+      <a name="integrity" val="b761a125a107155633e7bebf37ef28c497823f27"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="1"/>
+      <a name="bit5" val="1"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="1"/>
+    </comp>
+    <comp lib="0" loc="(1020,190)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="incoming" val="8"/>
+      <a name="owner" val="feuzet_costa"/>
+      <a name="date" val="04.12.24 13:15:53"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="51b8fb45-60f4-4eb7-b913-76cee59435ac"/>
+      <a name="integrity" val="de9d501f9b03ca87d294eac33b97c6ec99b2088e"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="1"/>
+      <a name="bit5" val="1"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="1"/>
+    </comp>
+    <comp loc="(790,350)" name="shift_reg_4b"/>
+    <comp lib="0" loc="(550,250)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="2"/>
+      <a name="label" val="mode_i"/>
+    </comp>
+    <comp loc="(790,190)" name="shift_reg_4b"/>
+    <comp lib="0" loc="(550,410)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="2"/>
+      <a name="label" val="mode_i"/>
+    </comp>
+    <comp lib="0" loc="(260,160)" name="Tunnel">
+      <a name="label" val="ser_r_i"/>
+    </comp>
+    <comp lib="0" loc="(260,240)" name="Tunnel">
+      <a name="width" val="4"/>
+      <a name="label" val="value_load_0_3_i"/>
+    </comp>
+    <comp lib="0" loc="(260,260)" name="Tunnel">
+      <a name="width" val="4"/>
+      <a name="label" val="value_load_4_7_i"/>
+    </comp>
+    <comp lib="0" loc="(260,130)" name="Tunnel">
+      <a name="label" val="ser_l_i"/>
+    </comp>
+    <comp lib="0" loc="(550,390)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="4"/>
+      <a name="label" val="value_load_0_3_i"/>
+    </comp>
+    <comp lib="0" loc="(550,230)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="4"/>
+      <a name="label" val="value_load_4_7_i"/>
+    </comp>
+    <comp lib="0" loc="(550,270)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="clk_i"/>
+    </comp>
+    <comp lib="0" loc="(550,290)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="reset_i"/>
+    </comp>
+    <comp lib="0" loc="(550,450)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="reset_i"/>
+    </comp>
+    <comp lib="0" loc="(550,430)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="clk_i"/>
+    </comp>
+    <comp lib="0" loc="(980,200)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="4"/>
+      <a name="label" val="val_0_3_o"/>
+    </comp>
+    <comp lib="0" loc="(980,220)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="width" val="4"/>
+      <a name="label" val="val_4_7_o"/>
+    </comp>
+    <comp lib="0" loc="(810,190)" name="Tunnel">
+      <a name="width" val="4"/>
+      <a name="label" val="val_4_7_o"/>
+    </comp>
+    <comp lib="0" loc="(810,350)" name="Tunnel">
+      <a name="width" val="4"/>
+      <a name="label" val="val_0_3_o"/>
+    </comp>
+    <comp lib="0" loc="(1090,150)" name="Tunnel">
+      <a name="width" val="8"/>
+      <a name="label" val="val_o"/>
+    </comp>
+    <comp lib="0" loc="(1090,170)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="width" val="8"/>
@@ -1046,13 +1205,59 @@ end TCL_Generic;&#13;
       <a name="uuid" val="66bbc1b8-3e9a-4f0f-b002-8b01235395d9"/>
       <a name="integrity" val="314b40d2e405ac0080144c8fdd827f76e18a459e"/>
     </comp>
-    <comp lib="0" loc="(170,130)" name="Pin">
+    <comp lib="0" loc="(1090,120)" name="Tunnel">
+      <a name="label" val="val_4_o"/>
+    </comp>
+    <comp lib="0" loc="(1060,130)" name="Splitter">
+      <a name="incoming" val="8"/>
+      <a name="owner" val="feuzet_costa"/>
+      <a name="date" val="04.12.24 13:15:53"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="13415402-040f-4a36-9297-df41ffff0556"/>
+      <a name="integrity" val="f0bfcdfd53beb1458b2f5e7e4dd8392f4072783f"/>
+      <a name="bit0" val="none"/>
+      <a name="bit1" val="none"/>
+      <a name="bit2" val="none"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="1"/>
+      <a name="bit5" val="none"/>
+      <a name="bit6" val="none"/>
+      <a name="bit7" val="none"/>
+    </comp>
+    <comp lib="0" loc="(1090,100)" name="Tunnel">
+      <a name="label" val="val_3_o"/>
+    </comp>
+    <comp lib="0" loc="(550,210)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="val_3_o"/>
+    </comp>
+    <comp lib="0" loc="(550,350)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="val_4_o"/>
+    </comp>
+    <comp lib="0" loc="(550,190)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="ser_r_i"/>
+    </comp>
+    <comp lib="0" loc="(550,370)" name="Tunnel">
+      <a name="facing" val="east"/>
       <a name="label" val="ser_l_i"/>
-      <a name="owner" val="gaetan_matthey"/>
-      <a name="date" val="20.11.20 15:22:19"/>
-      <a name="version" val="2.14.8.t"/>
-      <a name="uuid" val="60dc08b5-5140-4141-b124-37b2a6389600"/>
-      <a name="integrity" val="4940b299d92de2722fbe45974ebc26a5b3e36a2f"/>
+    </comp>
+    <comp lib="0" loc="(170,390)" name="Clock">
+      <a name="label" val="test_clk"/>
+      <a name="owner" val="feuzet_costa"/>
+      <a name="date" val="04.12.24 13:50:54"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="84270a2b-d741-4b18-b630-0a58b1ddc657"/>
+      <a name="integrity" val="781a048efa5d869ca0965edc1eadb713692830fb"/>
+    </comp>
+    <comp lib="0" loc="(170,490)" name="Clock">
+      <a name="label" val="sysclk"/>
+      <a name="owner" val="feuzet_costa"/>
+      <a name="date" val="04.12.24 13:50:54"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="04a83403-b658-4dd7-8960-488a4392eb33"/>
+      <a name="integrity" val="c771a7ad2cf939d7ac0c08a6e6dc43adb4aaaec2"/>
     </comp>
     <comp lib="7" loc="(4,50)" name="Text" trackercomp="true">
       <a name="text" val="Attention, votre version de Logisim"/>
@@ -1138,6 +1343,14 @@ end TCL_Generic;&#13;
       <a name="version" val="2.14.8.t"/>
       <a name="uuid" val="115aeb22-8485-4e40-a7e0-d0a99aa0b7c9"/>
       <a name="integrity" val="e74036dd05d0c9e2359894938b010be9cca95371"/>
+    </comp>
+    <comp lib="4" loc="(600,320)" name="Register">
+      <a name="width" val="28"/>
+      <a name="owner" val="feuzet_costa"/>
+      <a name="date" val="04.12.24 14:26:37"/>
+      <a name="version" val="2.16.8.t"/>
+      <a name="uuid" val="47ea776f-3246-4018-ad33-f1685ca21f71"/>
+      <a name="integrity" val="c94fcba4cac9906c017993d0d20e8686ea855ca4"/>
     </comp>
     <comp lib="7" loc="(4,50)" name="Text" trackercomp="true">
       <a name="text" val="Attention, votre version de Logisim"/>
