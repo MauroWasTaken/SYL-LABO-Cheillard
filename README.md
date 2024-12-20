@@ -116,17 +116,17 @@ Table de karnaugh **mode_i(1)**:
 ### Chronogramme 3
 ![Chronograme question 10](chronogramme_q10_1.png)
 ### Legendes:
-Si un chiffre n'est pas de chronogramme, ça veut dire qu'il est effectué dans la sans coup de clock (du coup il n'est pas visible sur le chronogramme).
+Si un chiffre n'apparaît pas sur le chronogramme, c'est qu'il est effectué hors du cycle d'horloge.
 1) Reset effectué c'est a dire que la valeur de val_o est remise à 0
 2) Configurer speed_i = "00".
 3) Charger la donnée 0x12 à la sortie led_o en introduisant une valeur dans val_i et en activant l’entrée load_i pendant 1 coup de clock.
 4) Désactiver le chargement puis activer l’entrée enable_i.
-5) Effectuer 3 périodes de Timer avec Right_nLeft_i = ’1’.
+5) Effectuer 3 périodes de Timer avec Right_nLeft_i = ’1’. (0b0001 0010 >> 0b0000 1001)
 6) Appuyer sur Pulse_load_i.
-7) Après 5 décalages du chenillard,
+7) Après 5 décalages du chenillard (0b0000 1001 >> 0b1000 0100 >> 0b1100 0010 >> 0b1110 0001 >> 0b1111 0000 >> 0b1111 1000)
 8) Désactiver l’entrée enable_i.
-9) Changer l’état de Right_nLeft_i pendant 1 coups de clock.
+9) Changer l’état de Right_nLeft_i pendant 1 coups de clock. (0b1111 1000)
 10) Réactiver le chenillard
-11) Effectuer 3 périodes de Timer.
+11) Effectuer 3 périodes de Timer.(0b1111 1000 << 0b1111 0001)
 12) Appuyer sur Pulse_load_i.
-13) Après 5 décalages du chenillard, désactiver l’entrée enable_i
+13) Après 5 décalages du chenillard, désactiver l’entrée enable_i (dans la partie hold) (0b1111 0001 << 0b1110 0011 << 0b1100 0111 << 0b1000 1111 << 0b0001 1111 << 0b0011 1111)
