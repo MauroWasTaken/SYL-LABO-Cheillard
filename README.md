@@ -50,13 +50,16 @@ Table de vérité de mode_i
 |  1  |  1  |  1  |   0     |   1     |
 ## Question 9
 Les équations simplifiées de mode_i(0) et mode_i(1)
+
 Table de karnaugh: mode_i(0)=Load+En+Shift
 |  0  |  0  |  1  |   1     |
 | ----| --- | --  |---------|
 |  0  |  1  |  1  |   1     |
 
 Table de karnaugh: mode_i(1)=/Load.En
-
+|  0  |  1  |  0  |   0     |
+| ----| --- | --  |---------|
+|  0  |  1  |  0  |   0     |
 ## Question 10
 
 
