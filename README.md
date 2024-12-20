@@ -75,6 +75,6 @@ Table de karnaugh: mode_i(1)=/Load.En
 | ----| --- | --  |---------|
 |  0  |  1  |  0  |   0     |
 ## Question 10
-![Chronograme question 10](chronogrammme_q10.png)
+![Chronograme question 10](chrono.png)
 (on va d'abord verifier que c'est bon et pour l'esplication je ne sais pas trop quoi mettre)
 
