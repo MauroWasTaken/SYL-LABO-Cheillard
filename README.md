@@ -2,7 +2,7 @@
 ## Question 1
 - Valeurs de départ:**0b0110**
 
-- Suite à la deux décalage vers la droite, on obtient: **0b0001** (0110 >> 0011 >> 0001)
+- Suite à deux décalages vers la droite, on obtient: **0b0001** (0110 >> 0011 >> 0001)
 
 - Et apres les 3 décalages vers la gauche, la valeur obtenue à la sortie est  **0b1000** ( 0001 << 0010 << 0100 << 1000)
 
@@ -38,13 +38,13 @@
 
 7) Nous avons, ensuite, mis le **mode_i à 3** pour faire un decalage de 1 à droite de la valeur **0b1000 1000** et nous avons laisse le clock faire 3 cycles, ce qui nous donne la valeur **0b0010 0010** ( **0b1000 1000** >> **0b0100 0100** >> **0b0010 0010**) 
  
-Finalement nous avons mis le **mode_i à 0** pour faire un hold de la valeur **0b0010 0010**, ce qui nous donne la valeur **0b0010 0010** indemendament du nombre de cycles que nous avons laisse le clock faire.
+Finalement nous avons mis le **mode_i à 0** pour faire un hold de la valeur **0b0010 0010**, ce qui nous donne la valeur **0b0010 0010** independament du nombre de cycles que nous avons laisse le clock faire.
 
 ## Question 3
 Les points principaux pour avoir choisit un decompteur à la place d'un compteur sont les suivants:
 
 - **Le décompteur est plus simple à implémenter qu'un compteur** (notre validation est sur une constante, il ya que la valeur de load qui change entre les modes)
-- ça nous permet d'eviter le cas ou si la valeur du compteur est changée au cours de route, ça se peut que la limite soit plus basse que la valeur actuelle du compteur, ce qui peut causer des erreurs.
+- ça nous permet d'eviter le cas où si la valeur du compteur est changée en cours de route, ça se peut que la limite soit plus basse que la valeur actuelle du compteur, ce qui peut causer des erreurs.
 
 ## Question 4
 | Fréquence visée    | Nombre de cycle | equivalence 28 bits en hexadecimal |value_i en hexadecimal|
@@ -116,7 +116,7 @@ Table de karnaugh **mode_i(1)**:
 ### Chronogramme 3
 ![Chronograme question 10](chronogramme_q10_1.png)
 ### Legendes:
-Si un chiffre n'est pas de chronogramme, ça veut dire qu'il est effectué dans la sans coup de clock (ducoup il n'est pas visible sur le chronogramme).
+Si un chiffre n'est pas de chronogramme, ça veut dire qu'il est effectué dans la sans coup de clock (du coup il n'est pas visible sur le chronogramme).
 1) Reset effectué c'est a dire que la valeur de val_o est remise à 0
 2) Configurer speed_i = "00".
 3) Charger la donnée 0x12 à la sortie led_o en introduisant une valeur dans val_i et en activant l’entrée load_i pendant 1 coup de clock.
