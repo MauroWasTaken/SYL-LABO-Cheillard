@@ -17,6 +17,20 @@ Chronogramme:
 
 Chronogramme:
 ![Chronograme question 2](chronogramme_q2_1.png)
+1) Reset effectué
+
+2) Sur value_load_i on peut voir le chargement de le valeur 1 qui est effectué grace au mode_i à 1
+
+3) Décalege de la valeur 1 à gauche, visible sur val_o et effectué grace au mode_i à 2
+
+4) Chargement de la valeur 80 sur value_load_i 
+
+5) Decalage de 8 à droite de la valeur 80 grace à mode_i à 3
+
+6) Chargement de la valeur 88 sur value_load_i 
+
+7) Decalage de 2 à droite de la valeur 88 grace à mode_i à 3 et maintien de la valeur 88 grace à mode_i à 0 qui correspond au HOLD
+
 D'après le chronogramme on peut bien voir que le mode HOLD est bioen fonctionnel car il remplit bien son rôle de maintien de la dernière valeur de sortie.
 
 
