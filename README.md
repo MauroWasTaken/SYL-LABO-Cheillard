@@ -31,7 +31,7 @@ Chronogramme:
 
 7) Decalage de 2 à droite de la valeur 88 grace à mode_i à 3 et maintien de la valeur 88 grace à mode_i à 0 qui correspond au HOLD
 
-D'après le chronogramme on peut bien voir que le mode HOLD est bioen fonctionnel car il remplit bien son rôle de maintien de la dernière valeur de sortie.
+D'après le chronogramme on peut bien voir que le mode HOLD est bien fonctionnel car il remplit bien son rôle de maintien de la dernière valeur de sortie.
 
 
 ## Question 3
@@ -75,5 +75,6 @@ Table de karnaugh: mode_i(1)=/Load.En
 | ----| --- | --  |---------|
 |  0  |  1  |  0  |   0     |
 ## Question 10
-
+![Chronograme question 10](chronogrammme_q10.png)
+(on va d'abord verifier que c'est bon et pour l'esplication je ne sais pas trop quoi mettre)
 
